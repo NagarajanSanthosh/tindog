@@ -1,0 +1,152 @@
+/* tag */
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+body{
+    font-family: serif;
+}
+/* class */
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Courier Prime', monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+   
+    position: absolute;
+    right:30%;
+}
+
+
+/* id */
+#title{
+    background-color: #ff4c68;
+    
+}
+
+/* feature */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position:relative;
+    
+}
+.feature-box{
+    text-align: center;
+    padding: 7%;
+}
+.h3tag{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.fontawe{
+    color: #ef8172;
+   margin-bottom: 1rem;
+    
+}
+.explain{
+    color: #8f8f8f;
+}
+.fontawe:hover{
+    color: #ff4c68;
+    text-decoration: none; 
+}
+
+/* testimonials */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+   font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* Press */
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+
+}
+.pricing-column{
+    padding: 3% 2%;
+    
+}
+/* media queries */
+@media (max-width : 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+       
+    }
+}
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    text-align: center;
+    padding: 7% 15%;
+}
+/* footer */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.fa-ico{
+    padding: 0 10px ;
+}
+.copyR{
+    padding: 10px;
+    color:#8f8f8f
+}
